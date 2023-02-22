@@ -7,6 +7,10 @@ android {
     namespace 'com.david.session5'
     compileSdk 33
 
+    buildFeatures{
+        viewBinding = true
+    }
+
     defaultConfig {
         applicationId "com.david.session5"
         minSdk 24
