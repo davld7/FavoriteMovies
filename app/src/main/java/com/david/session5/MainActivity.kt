@@ -17,4 +17,8 @@ class MainActivity : AppCompatActivity() {
         val intent = Intent(this, Movie1Activity::class.java)
         startActivity(intent)
     }
+    fun changeView2(view: View){
+        val intent = Intent(this, Movie2Activity::class.java)
+        startActivity(intent)
+    }
 }
