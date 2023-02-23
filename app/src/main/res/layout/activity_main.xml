@@ -4,18 +4,18 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#000000"
     tools:context=".MainActivity">
 
     <Button
         android:id="@+id/buttonMovie1"
         android:layout_width="203dp"
         android:layout_height="51dp"
-        android:backgroundTint="#000000"
+        android:backgroundTint="#FFC107"
         android:onClick="changeView"
         android:text="Interstellar"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.548"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.564" />
@@ -24,43 +24,55 @@
         android:id="@+id/buttonMovie2"
         android:layout_width="203dp"
         android:layout_height="51dp"
-        android:backgroundTint="#000000"
+        android:backgroundTint="#FFC107"
         android:onClick="changeView2"
         android:text="Blade Runner 2049"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.548"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.677" />
+        app:layout_constraintVertical_bias="0.667" />
 
     <Button
         android:id="@+id/buttonMovie3"
         android:layout_width="203dp"
         android:layout_height="51dp"
-        android:backgroundTint="#000000"
+        android:backgroundTint="#FFC107"
         android:onClick="changeView3"
         android:text="Inception"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.548"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.8" />
+        app:layout_constraintVertical_bias="0.766" />
 
     <Button
         android:id="@+id/buttonMovie4"
         android:layout_width="203dp"
         android:layout_height="51dp"
-        android:backgroundTint="#000000"
+        android:backgroundTint="#FFC107"
         android:onClick="changeView4"
         android:text="The Dark Knight"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.548"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.927" />
+        app:layout_constraintVertical_bias="0.872" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Created by Roberto David Morales"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonMovie4"
+        app:layout_constraintVertical_bias="0.529" />
 
     <ImageView
         android:id="@+id/imageView4"
@@ -70,6 +82,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.49"
         app:srcCompat="@drawable/movie" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
